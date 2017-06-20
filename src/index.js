@@ -4,7 +4,7 @@ import 'core-js/fn/array/find-index';
 import Button from './components/button';
 import locale from './locale';
 
-const lemo = {
+const ele = {
   Button
 };
 
@@ -12,8 +12,8 @@ const install = function (Vue, opts = {}) {
   locale.use(opts.locale);
   locale.i18n(opts.i18n);
 
-  Object.keys(lemo).forEach((key) => {
-    Vue.component(key, lemo[key]);
+  Object.keys(ele).forEach((key) => {
+    Vue.component(key, ele[key]);
   });
 
   // Vue.prototype.$Loading = LoadingBar;
@@ -27,4 +27,4 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-module.exports = Object.assign(lemo, {install}); // eslint-disable-line no-undef
+module.exports = Object.assign(ele, {install}); // eslint-disable-line no-undef

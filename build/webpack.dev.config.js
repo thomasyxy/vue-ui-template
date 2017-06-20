@@ -26,7 +26,7 @@ module.exports = merge(webpackBaseConfig, {
   },
   resolve: {
     alias: {
-      lemo: '../../src/index',
+      index: '../../src/index',
       vue: 'vue/dist/vue.esm.js'
       // vue: 'vue/dist/vue.runtime.js'
     }

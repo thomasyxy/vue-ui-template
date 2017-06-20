@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import lemo from '../../src/index';
+import Ele from '../../src/index';
 
-Vue.use(lemo);
+Vue.use(Ele);
 
 let id = 0;
 

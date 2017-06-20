@@ -89,7 +89,7 @@ export {
 export function warnProp(component, prop, correctType, wrongType) {
   correctType = firstUpperCase(correctType);
   wrongType = firstUpperCase(wrongType);
-  console.error(`[lemo warn]: Invalid prop: type check failed for prop ${prop}. Expected ${correctType}, got ${wrongType}. (found in component: ${component})`); // eslint-disable-line
+  console.error(`[myele warn]: Invalid prop: type check failed for prop ${prop}. Expected ${correctType}, got ${wrongType}. (found in component: ${component})`); // eslint-disable-line
 }
 
 function typeOf(obj) {

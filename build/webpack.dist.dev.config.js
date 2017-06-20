@@ -7,13 +7,13 @@ process.env.NODE_ENV = 'production';
 
 module.exports = merge(webpackBaseConfig, {
   entry: {
-    main: './src/index.js'
+    index: './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
     publicPath: '/dist/',
-    filename: 'lemo.js',
-    library: 'lemo',
+    filename: '[name].js',
+    library: '[name]',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
