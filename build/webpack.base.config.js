@@ -1,7 +1,7 @@
 /**
  * 公共配置
  */
-var path = require('path');
+const path = require('path');
 
 function resolve(dir) {
   return path.join(__dirname, '..', dir)
