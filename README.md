@@ -1,4 +1,4 @@
-# vueUI-template
+# vue-ui-template
 
 > vue组件库模板
 
